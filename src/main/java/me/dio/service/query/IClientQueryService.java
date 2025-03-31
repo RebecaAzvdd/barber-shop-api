@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface IClientQueryService {
 
-    ClientEntity findById(final Long id);
+    ClientEntity findById(final long id);
 
     List<ClientEntity> list();
 
